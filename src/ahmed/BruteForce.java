@@ -110,7 +110,7 @@ public class BruteForce {
 
 		try {
 			File file1 = new File(
-					"C:\\Users\\ahmed\\eclipse-workspace\\q2\\src\\application\\cyber_project1\\src\\ciphertext.txt");
+					"FILE PATH HERE !");
 			Scanner input = new Scanner(file1);
 
 			while (input.hasNextLine()) {
@@ -133,7 +133,7 @@ public class BruteForce {
 
 			}
 			File file = new File(
-					"C:\\Users\\ahmed\\eclipse-workspace\\q2\\src\\application\\cyber_project1\\src\\Analysis.txt");
+					"FILE PATH HERE !");
 			try (PrintWriter writer = new PrintWriter(file);) {
 
 				int maxCount = 0;
@@ -168,7 +168,7 @@ public class BruteForce {
 
 		try {
 			File file1 = new File(
-					"C:\\Users\\ahmed\\eclipse-workspace\\q2\\src\\application\\cyber_project1\\src\\ciphertext.txt");
+					"FILE PATH HERE !");
 			Scanner input = new Scanner(file1);
 
 			while (input.hasNextLine()) {

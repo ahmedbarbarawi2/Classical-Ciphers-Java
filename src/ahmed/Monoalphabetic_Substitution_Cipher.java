@@ -15,7 +15,7 @@ public class Monoalphabetic_Substitution_Cipher {
 	public static void readplaintext (String path) {
 		try {
 			if (path.equalsIgnoreCase("")) {
-				path = "C:\\Users\\ahmed\\eclipse-workspace\\q2\\src\\application\\Cyber_Projectone\\plaintext.txt"  ;
+				path = "FILE PATH HERE !"  ;
 			}
 			File file = new File(path);
 			Scanner input = new Scanner(file);
@@ -41,7 +41,7 @@ public class Monoalphabetic_Substitution_Cipher {
 	public static void readciphertext (String path) {
 		try {
 			if (path.equalsIgnoreCase("")) {
-				path = "C:\\Users\\ahmed\\eclipse-workspace\\q2\\src\\application\\Cyber_Projectone\\ciphertext.txt" ;
+				path = "FILE PATH HERE !" ;
 			}
 			File file = new File(path);
 			Scanner input = new Scanner(file);
@@ -111,7 +111,7 @@ public class Monoalphabetic_Substitution_Cipher {
 	
 	public static void read_seed() {
 		 String lastLine = "";
-		    try (Scanner scanner = new Scanner(new File("C:\\Users\\ahmed\\eclipse-workspace\\q2\\src\\application\\Cyber_Projectone\\plaintext.txt"))) {
+		    try (Scanner scanner = new Scanner(new File("FILE PATH HERE !"))) {
 		        while (scanner.hasNextLine()) {
 		            lastLine = scanner.nextLine();
 		        }
@@ -147,7 +147,7 @@ public class Monoalphabetic_Substitution_Cipher {
    }
 	public static void enctyptiontofile (String path) {
 		if (path =="") {
-			path ="C:\\Users\\ahmed\\eclipse-workspace\\q2\\src\\application\\Cyber_Projectone\\ciphertext.txt";
+			path ="FILE PATH HERE !";
 		}
 		File file = new File(path);
 		try (PrintWriter writer = new PrintWriter(file);) {
@@ -184,7 +184,7 @@ public class Monoalphabetic_Substitution_Cipher {
 }	
 	public static void dectyptiontofile (String path ) {
 		if (path =="") {
-			path ="C:\\Users\\ahmed\\eclipse-workspace\\q2\\src\\application\\Cyber_Projectone\\plaintext.txt";
+			path ="FILE PATH HERE !";
 		}
 		File file = new File(path);
 		try (PrintWriter writer = new PrintWriter(file);) {

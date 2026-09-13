@@ -204,5 +204,3 @@ public class Vigenere {
 		return x;
 	}
 }
-
-
